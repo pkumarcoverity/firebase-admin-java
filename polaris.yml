@@ -1,6 +1,6 @@
 version: "1"
 project:
-  name: fbase-gbuild
+  name: gbuild-test
   branch: master
   revision:
     name: ${scm.git.commit}
