@@ -8,7 +8,7 @@ steps:
         'https://sipse.polaris.synopsys.com/api/tools/polaris_cli-linux64.zip'
         -fLOsS ;
         unzip polaris_cli-linux64.zip ;
-        rm -rf polaris_cli-linux64.zip ;
+        rm -rf polaris_cli-linux64.zip 
     entrypoint: bash
     timeout: 5000s
   - name: ubuntu
