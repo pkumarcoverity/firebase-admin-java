@@ -20,4 +20,4 @@ steps:
         apt update ;apt install -y git ;
         polaris_cli-linux64-2021.12.1/bin/polaris analyze -w
     entrypoint: bash
-  timeout: 5000s
+    timeout: 5000s
