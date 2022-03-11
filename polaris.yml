@@ -12,7 +12,8 @@ analyze:
   mode: central
   coverity:
     cov-analyze: 
-    - --security
+    - --webapp-security
+    - --enable-audit-mode
 install:
   coverity:
     version: default
